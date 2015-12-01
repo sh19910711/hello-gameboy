@@ -87,7 +87,7 @@ jp	begin
 
 ; Next we need to include some code for doing
 ; RAM copy, RAM fill, etc.
-INCLUDE "src/memory.asm"
+INCLUDE "memory.asm"
 
 ;  Next, let's actually include font tile data into the ROM
 ; that we are building. We do this by invoking the chr_IBMPC1
